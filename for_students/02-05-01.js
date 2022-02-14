@@ -25,6 +25,7 @@ function makeSVGrect(x,y,w,h,fill,click) {
     return rect;
 }
 
+// no need for onload, since we use defer
 /**
  * Box 1 (Animation with SVG & Canvas) - animate something moving, and many things not moving
  * in both SVG and Canvas
@@ -44,11 +45,12 @@ svg1.appendChild(svg1rect);
 // which redraws everything.
 // we need to know the position of the moving box
 /**
- * draw everything for Box 1 Canvas
+ * draw everythign for Box 1 Canvas
  * @param {number} xpos
  */
 function box1canvDrawAll(xpos) {
     // for real speed, these could be put outside the loop
+    /** @type {HTMLCanvasElement} */
     let canvas = /** @type {HTMLCanvasElement} */ (document.getElementById("box1canvas"));
     let context = canvas.getContext('2d');
     // clear the canvas

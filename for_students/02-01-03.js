@@ -43,5 +43,5 @@ function onTick(timestamp) {
 }
 // start the "loop" by doing the initial iteration
 // (which will schedule the second iteration, ...)
-window.requestAnimationFrame(onTick);
+onTick(0);
     

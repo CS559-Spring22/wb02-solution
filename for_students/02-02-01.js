@@ -6,6 +6,7 @@ export {}; // null export tells vscode to treat this as a module
  * Example 1 (Review the Basics) - just a simple square
  */
 // use type information to make TypeScript happy
+/** @type {HTMLCanvasElement} */
 let canvas = /** @type {HTMLCanvasElement} */ (document.getElementById("box1canvas"));
 let context = canvas.getContext("2d");
 

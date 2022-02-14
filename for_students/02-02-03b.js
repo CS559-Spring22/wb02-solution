@@ -7,7 +7,6 @@ export {};
  */
 
 // ordering of stroke and fill
-/** @type {HTMLCanvasElement} */
 let canvas32 = /** @type {HTMLCanvasElement} */ (document.getElementById("box3canvas2"));
 let context32 = canvas32.getContext('2d');
 

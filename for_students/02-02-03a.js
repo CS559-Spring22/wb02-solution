@@ -5,7 +5,6 @@ export {};
  * Example 3 (Drawing Order and Transparency)
  * Part A
  */
-/** @type {HTMLCanvasElement} */
 let canvas31 = /** @type {HTMLCanvasElement} */ (document.getElementById("box3canvas1"));
 let context31 = canvas31.getContext('2d');
 

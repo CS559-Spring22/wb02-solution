@@ -14,7 +14,7 @@ canvas.onmousemove = function(event) {
     // unfortunately, X,Y is relative to the overall window -
     // we need the X,Y inside the canvas!
     // we know that event.target is a HTMLCanvasElement, so tell typescript
-    let box = /** @type {HTMLCanvasElement} */ (event.target).getBoundingClientRect();
+    let box = /** @type {HTMLCanvasElement} */(event.target).getBoundingClientRect();
     mouseX -= box.left;
     mouseY -= box.top;
     dots.push({"x":mouseX,"y":mouseY});

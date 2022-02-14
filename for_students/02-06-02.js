@@ -1,3 +1,5 @@
+// canvas events example
+/* jshint -W069, -W141, esversion:6 */
 export {};
 
 let canvas1 = document.getElementById("box2canvas1");

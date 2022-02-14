@@ -1,5 +1,5 @@
 // we enable typescript type checking - see
-// https://pages.graphics.cs.wisc.edu/559-sp22/pages/typed-js/
+// https://graphics.cs.wisc.edu/Courses/559-sp2021/pages/typed-js/
 // https://github.com/Microsoft/TypeScript/wiki/Type-Checking-JavaScript-Files
 // @ts-check
 

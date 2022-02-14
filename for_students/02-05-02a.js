@@ -1,4 +1,4 @@
- // @ts-check
+// @ts-check
 export {};
 
 // useful constant for doing SVG

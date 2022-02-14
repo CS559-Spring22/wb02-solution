@@ -85,7 +85,7 @@ document.getElementById("boxcanvas").onclick = function(event) {
     // unfortunately, X,Y is relative to the overall window -
     // we need the X,Y inside the canvas!
     // we know that event.target is a HTMLCanvasElement, so tell typescript
-    let box = /** @type {HTMLCanvasElement} */ (event.target).getBoundingClientRect();
+    let box = /** @type {HTMLCanvasElement} */(event.target).getBoundingClientRect();
     x -= box.left;
     y -= box.top;
     // now we can see if we clicked on a rectangle

@@ -1,12 +1,12 @@
 // @ts-check
 export {};
 
+
 /**
  * Example 2 (Insides and Outsides) - Squares with style
  * Part B
  */
 
-/** @type {HTMLCanvasElement} */
 let canvas = /** @type {HTMLCanvasElement} */ (document.getElementById("box2canvas2"));
 let context = canvas.getContext('2d');
 
